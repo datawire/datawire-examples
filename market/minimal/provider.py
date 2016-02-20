@@ -51,6 +51,6 @@ options = DWCOptions(svcToken)
 options.gatewayHost = "disco.datawire.io";
 
 provider = DWCProvider(options, "ratings", endpoint)
-provider.register(1.0)
+provider.register(5.0)
 
 print("...serving!")
